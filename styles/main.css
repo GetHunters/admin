@@ -996,3 +996,346 @@ td {
         font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
       }
     
+      *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: rgb(230, 230, 230);
+}
+html ,body{
+    font-family: Georgia, '微软雅黑', Times, serif;
+    font-size: 16px;
+    line-height: 1.8em;/*字体的行间距*/
+}
+a{
+    color: #555555;
+    text-decoration: none;/*取消a标签下划线*/
+}
+h1,h2,h3,h4,h5,h6{
+    padding-bottom: 20px;/*通用样式*/
+}
+p{
+    margin: 10px 0;/*10代表X轴，0代表Y轴*/
+}
+/*全局样式*/
+.container{
+    padding: 0 20px;
+    overflow: hidden;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+/*导航栏样式*/
+.current{
+    background: #928e83;
+}
+#navbar{
+    background: #3a3a3a;
+    color: aliceblue;
+    overflow: auto;
+}
+#navbar .container h1{
+    font-size: 9px;
+    color: #acacac;
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px
+    ;margin-right: 0px;
+    margin: auto;
+}
+#navbar ul{
+    float: right;
+    list-style: none;   
+}
+#navbar ul li{
+    float: left;
+}
+#navbar a{
+    color: #ffffff; 
+    margin: 0 30px; 
+}
+#navbar h2{
+    float: left;
+    color: #ffffff;  
+    padding: 20px;
+}
+#navbar ul li a{
+    padding: 20px 38px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+}
+#navbar ul li :hover{
+    background: rgb(161, 161, 161);
+    color: rgb(66, 66, 66);
+}
+#navbar h2:hover{
+    background: rgb(161, 161, 161);
+    background-image: url(/img/logo.bmp);
+}
+
+/*bodyhome 主页轮播图*/
+#showcase{
+    background: url('../img/10.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .container{
+    text-align: center;
+    color: #fff;
+}
+.container p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+.btn{
+    color: #fff;
+    display:inline-block;
+    font-size: 18px;
+    background: #333333;
+    padding: 20px 35px;
+    padding-bottom: 30px;
+}
+.btn:hover{
+    background: #888888;
+    color: #000000;
+}
+.container h5{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 130px;    
+}
+.showcase-content span{
+    color: rgb(226, 158, 74);
+}
+
+/*home-info*/
+#home-info{
+    height: 500px;
+}
+#home-info .info-img{  
+    height: 100%;
+    width: 50%;
+    float: left;
+    background: url('/img/12.jpg') no-repeat center center/cover;
+}
+#home-info .info-content{
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: rgb(223, 223, 223);
+    background: rgb(33, 33, 33);
+}
+#home-info .info-content p{
+    padding: 30px ;
+    margin: 20px auto;
+    text-align: center; 
+    padding-bottom: 20px;   
+}
+#home-info .info-content h1{
+    font-size: 35px;
+    padding-top: 80px;
+}
+#home-info .btn{
+    /* text-align: justify; */
+    padding: 20px ;
+}
+#home-info .text-primary{
+    color: burlywood;
+}
+
+/*features*/
+#features{
+    height: 230px;
+    clear: both;
+}
+#features .box{
+    height: 100%;
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 50px;
+    background: #dfdfdf;
+    color: #3f3f3f;
+}
+#features .box1{
+    height: 100%;
+    width: 34%;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 50px;
+    background: rgb(230, 189, 57);
+}
+#fonter-info{
+    text-align: center;
+    background: #3a3a3a;
+    color: #fff;
+    width: 100%;
+    height: 88px;
+    padding: 20px;    
+}
+#fonter-info1{
+    text-align: center;
+    background: #666666;
+    color: #fff;
+    width: 100%;
+    height: 88px;
+    padding: 20px 30px;  
+    margin: 0px auto;  
+}
+
+/* about style */
+.aboutnumber{
+    height: 300px;
+    width: 996px;
+    padding: 20px;
+    margin: 10px auto;
+}
+.aboutnumber .showcase-about{    
+    height: 100%;
+    width: 70%;
+    float: left;
+    padding-right: 30px;
+}
+.aboutnumber .showcase-about h5{    
+    font-size: 22px;
+}
+.aboutnumber .showcase-about span{    
+    font-size: 22px;
+    color: #fab700;
+}
+.aboutnumber .showcase-about p{    
+    font-size: 16px;
+    color: #1f1f1f;
+}
+.aboutnumber .aboutbodyer{
+    background:url(/img/14.jpg) center center/cover;
+    height: 100%;
+    width: 30%;
+    float: right;
+    border-radius: 50%;
+}
+.aboutbodyer{/*aboutbackgroundIMG*/
+    background: url(/img/21.jpg) center center/cover;
+    width: 100%;
+    height: 777px;
+}
+.aboutbox img{
+    width: 166px;
+    height: 166px;
+    border-radius: 60%;
+}
+.aboutbox{
+    background: rgb(218, 165, 101);
+    border-radius: 12px;
+    height: 200px;
+    width: 996px;
+    padding: 20px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    opacity: 0.7;
+}
+
+.about_aboutbox_p{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    float: right;
+    color: springgreen;
+}
+
+.aboutbodyer .abouth3{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+.contactstyle{
+    margin: auto;
+    width: 996px;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.contactstyle h4{
+    font-size: 33px;
+    color: black;    
+}
+.contactstyle span{
+    font-size: 33px;
+    color: #fab700;    
+}
+.contactstyle h6{
+    font-size: 18px;
+    color: black;
+}
+.contactstyle label{
+    color: black;
+    display: block;
+    margin-top: 20px;
+    padding: 8px;    
+}
+.contactstyle input{
+    width: 100%;
+    height: 18px;
+    border: 1px rgb(175, 147, 95) solid;
+    border-radius: 5px;
+    padding: 18px;    
+}
+.contactstyle input:focus{
+    outline: none;
+    border-color: darkorange;    
+}
+.contactstyle .classcontact{
+    height: 150px;
+}
+.contactstyle button{
+    background: #49c1a2;
+    padding: 18px 30px;
+    margin-top: 30px;
+    cursor: progress;
+    border: 0px solid;
+}
+
+/*contact style*/
+/*features*/
+#featuress{
+    height: 230px;
+    clear: both;
+    width: 100%;
+    color: seashell;
+    background: rgb(66, 66, 66);
+    text-align: center;
+}
+#featuress .box1{
+    height: 100%;
+    width: 33%;
+    float: left;    
+    padding: 30px;
+    
+}
+#featuress .box11{
+    height: 100%;
+    width: 34%;
+    float: left;
+    padding: 30px;
+}
+#featuress i{
+    padding-bottom: 10px;
+}
+/*divmax*/
+#featuress .divmax{
+    width: 996px;
+    margin: 0px auto;
+}
+
+
+
+    
